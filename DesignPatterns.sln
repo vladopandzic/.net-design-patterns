@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{5F551FA9-339A-463B-837C-E736AADB8B38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{57A0F57A-9DF8-47EB-A4E1-DFC483BA0B2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioural", "Behavioural", "{71A9D2A4-A904-42CA-AE54-CA7D84B09A12}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VP.DesignPatterns.Command", "Structural\Command\VP.DesignPatterns.Command\VP.DesignPatterns.Command.csproj", "{2190D1A4-171E-4D22-8F6E-9CE730AFFBC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VP.DesignPatterns.Builder", "VP.DesignPatterns.Builder\VP.DesignPatterns.Builder.csproj", "{08603654-94EB-4EF5-AAAE-B7985ECC6562}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2190D1A4-171E-4D22-8F6E-9CE730AFFBC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2190D1A4-171E-4D22-8F6E-9CE730AFFBC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2190D1A4-171E-4D22-8F6E-9CE730AFFBC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2190D1A4-171E-4D22-8F6E-9CE730AFFBC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08603654-94EB-4EF5-AAAE-B7985ECC6562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08603654-94EB-4EF5-AAAE-B7985ECC6562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08603654-94EB-4EF5-AAAE-B7985ECC6562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08603654-94EB-4EF5-AAAE-B7985ECC6562}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2190D1A4-171E-4D22-8F6E-9CE730AFFBC9} = {5F551FA9-339A-463B-837C-E736AADB8B38}
+		{08603654-94EB-4EF5-AAAE-B7985ECC6562} = {57A0F57A-9DF8-47EB-A4E1-DFC483BA0B2C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B0BC7A7-78DD-4BF2-B743-8DB141B34619}
+	EndGlobalSection
+EndGlobal

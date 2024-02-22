@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="VP.DesignPatterns.Bridge.Example1.ElectronicDevice">
+    <Position X="2.5" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQAAAAAAAAAAEAAABAAAAAAAAAAAAAAAAAAAAQAAg=</HashCode>
+      <FileName>Example1\ElectronicDevice.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="remoteControl" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="VP.DesignPatterns.Bridge.Example1.DVDPlayer">
+    <Position X="4" Y="4" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAQQAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Example1\DVDPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VP.DesignPatterns.Bridge.Example1.TV">
+    <Position X="0.5" Y="4" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAQQAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Example1\TV.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VP.DesignPatterns.Bridge.Example1.BasicRemoteControl">
+    <Position X="11.25" Y="4" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAQAAAAAAAAAABAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Example1\BasicRemoteControl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VP.DesignPatterns.Bridge.Example1.AdvancedRemoteControl">
+    <Position X="8" Y="4" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAQAAAAAAAAAABAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Example1\AdvancedRemoteControl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="VP.DesignPatterns.Bridge.Example1.IRemoteControl">
+    <Position X="10.25" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAQAAAAAAAAAABAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Example1\IRemoteControl.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="VP.DesignPatterns.Bridge.Example2.Shape">
+    <Position X="2" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Example2\Shape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VP.DesignPatterns.Bridge.Example2.Triangle">
+    <Position X="3.75" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Example2\Triangle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VP.DesignPatterns.Bridge.Example2.Circle">
+    <Position X="0.5" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Example2\Circle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VP.DesignPatterns.Bridge.Example2.BlueColor">
+    <Position X="8" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Example2\BlueColor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VP.DesignPatterns.Bridge.Example2.RedColor">
+    <Position X="11.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Example2\RedColor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="VP.DesignPatterns.Bridge.Example2.IColor">
+    <Position X="9" Y="1" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Example2\IColor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

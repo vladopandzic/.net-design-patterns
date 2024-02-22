@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="VP.DesignPatterns.Builder.GamingComputerBuilder">
+    <Position X="5.5" Y="3.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAgAAAAAAQAAAAAAEAAAgAAAAAAAAAAAQAA=</HashCode>
+      <FileName>GamingComputerBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VP.DesignPatterns.Builder.Computer">
+    <Position X="10.75" Y="1.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAQCIAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Computer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VP.DesignPatterns.Builder.ComputerEngineer">
+    <Position X="1" Y="1.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAII=</HashCode>
+      <FileName>ComputerEngineer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="computerBuilder" />
+    </ShowAsAssociation>
+  </Class>
+  <Interface Name="VP.DesignPatterns.Builder.IComputerBuilder">
+    <Position X="6.25" Y="1.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAgAAAAAAQAAAAAAAAAAgAAAAAAAAAAAQAA=</HashCode>
+      <FileName>IComputerBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

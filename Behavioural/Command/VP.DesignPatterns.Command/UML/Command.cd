@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="VP.DesignPatterns.Command.TurnOffCommand" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAQAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TurnOffCommand.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_tvReceiver" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VP.DesignPatterns.Command.TurnOnCommand" BaseTypeListCollapsed="true">
+    <Position X="7.25" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAQAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TurnOnCommand.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_tvReceiver" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VP.DesignPatterns.Command.Invoker">
+    <Position X="0.5" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAEABAACAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Invoker.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_commands" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="VP.DesignPatterns.Command.TVReceiver">
+    <Position X="11" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>TVReceiver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="VP.DesignPatterns.Command.ICommand">
+    <Position X="6.25" Y="1" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ICommand.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

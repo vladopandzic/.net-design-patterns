@@ -3,5 +3,4 @@
 public interface IEcu
 {
     public void ReceiveData(string data);
-
 }

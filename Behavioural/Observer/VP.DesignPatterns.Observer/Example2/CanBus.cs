@@ -1,4 +1,5 @@
 ﻿namespace VP.DesignPatterns.Observer.Example2;
+
 public class CanBus
 {
     private readonly List<IEcu> _ecus = new List<IEcu>();
@@ -24,7 +25,6 @@ public class CanBus
         foreach (var ecu in _ecus)
         {
             ecu.ReceiveData(data);
-
         }
     }
 }

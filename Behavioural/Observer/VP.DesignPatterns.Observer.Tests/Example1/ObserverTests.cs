@@ -63,8 +63,8 @@ public class ObserverTests
         car.Attach(observer);
 
         // Act
-        car.Speed = 100; 
-        car.Speed = 100; 
+        car.Speed = 100;
+        car.Speed = 100;
 
         // Assert
         observer.Received(1).Update(100);

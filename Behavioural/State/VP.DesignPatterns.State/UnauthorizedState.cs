@@ -15,7 +15,6 @@ public class UnauthorizedState : State
         {
             _userAuthentication.ChangeState(new AuthorizedState(_userAuthentication));
             Console.WriteLine("Successfully logged in!");
-
         }
         else
         {
@@ -27,6 +26,5 @@ public class UnauthorizedState : State
     {
         Console.WriteLine("User is not logged in.");
     }
-
 }
 

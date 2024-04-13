@@ -2,6 +2,7 @@
 using VP.DesignPatterns.Observer.Example2;
 
 namespace VP.DesignPatterns.Observer.Tests.Example2;
+
 public class ObserverExample2Tests
 {
     [Test]
@@ -27,12 +28,7 @@ public class ObserverExample2Tests
     {
         // Arrange
         var canBus = new CanBus();
-        var ecus = new List<IEcu>
-            {
-                Substitute.For<IEcu>(),
-                Substitute.For<IEcu>(),
-                Substitute.For<IEcu>()
-            };
+        var ecus = new List<IEcu> { Substitute.For<IEcu>(), Substitute.For<IEcu>(), Substitute.For<IEcu>() };
         foreach (var ecu in ecus)
         {
             canBus.Attach(ecu);

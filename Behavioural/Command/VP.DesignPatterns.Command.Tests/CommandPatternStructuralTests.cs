@@ -4,7 +4,6 @@ namespace VP.DesignPatterns.Command.Tests;
 
 public class Tests
 {
-
     [Test]
     public void ICommand_Implemented_By_Command_Classes()
     {
@@ -107,5 +106,4 @@ public class Tests
             mockReceiver.TurnOn(); // Undo should turn on again
         });
     }
-
 }

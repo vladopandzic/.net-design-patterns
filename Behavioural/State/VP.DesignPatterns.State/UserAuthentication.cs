@@ -1,4 +1,5 @@
 ﻿namespace VP.DesignPatterns.State;
+
 public class UserAuthentication
 {
     private State _state;
@@ -22,5 +23,4 @@ public class UserAuthentication
     {
         _state.Logout();
     }
-
 }

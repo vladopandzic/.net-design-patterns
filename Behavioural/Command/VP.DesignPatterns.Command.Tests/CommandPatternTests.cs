@@ -1,4 +1,5 @@
 ﻿namespace VP.DesignPatterns.Command.Tests;
+
 public class CommandPatternTests
 {
     [Test]

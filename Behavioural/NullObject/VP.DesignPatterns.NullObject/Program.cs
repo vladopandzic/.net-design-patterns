@@ -12,6 +12,5 @@ internal class Program
 
         IProduct product2 = repository.FindProductById(2);
         Console.WriteLine($"Product Name: {product2.Name}, Price: {product2.Price}");
-
     }
 }

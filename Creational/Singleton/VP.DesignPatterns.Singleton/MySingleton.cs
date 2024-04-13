@@ -21,9 +21,9 @@ public class MySingleton
     {
         get
         {
-            lock(lockObject)
+            lock (lockObject)
             {
-                if(_instance is null)
+                if (_instance is null)
                 {
                     _instance = new MySingleton();
                 }

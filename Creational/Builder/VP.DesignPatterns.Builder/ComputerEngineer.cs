@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace VP.DesignPatterns.Builder;
 
-namespace VP.DesignPatterns.Builder;
 public class ComputerEngineer
 {
     readonly IComputerBuilder computerBuilder;

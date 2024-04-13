@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace VP.DesignPatterns.Command;
 
-namespace VP.DesignPatterns.Command;
 internal class Program
 {
     static void Main(string[] args)

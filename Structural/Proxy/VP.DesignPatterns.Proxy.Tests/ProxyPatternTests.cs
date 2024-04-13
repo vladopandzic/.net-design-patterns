@@ -10,7 +10,7 @@ public class ProxyPatternTests
         string imageName = "example.jpg";
 
         // Act
-        using(StringWriter sw = new StringWriter())
+        using (StringWriter sw = new StringWriter())
         {
             Console.SetOut(sw);
 

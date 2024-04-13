@@ -1,4 +1,5 @@
 ﻿namespace VP.DesignPatterns.NullObject;
+
 public class ProductRepository
 {
     public IProduct FindProductById(int productId)

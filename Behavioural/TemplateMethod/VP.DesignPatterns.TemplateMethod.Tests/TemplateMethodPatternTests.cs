@@ -37,7 +37,6 @@ public class TemplateMethodPatternTests
 
         // Assert
         var actualOutput = stringWriter.ToString().Trim().Split("\r\n").Select(line => line.Trim());
-        Assert.That(actualOutput, Is.EquivalentTo(expectedOutput),
-            "Printed statements should match the expected sequence.");
+        Assert.That(actualOutput, Is.EquivalentTo(expectedOutput), "Printed statements should match the expected sequence.");
     }
 }

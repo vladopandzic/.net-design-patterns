@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Input;
-
-namespace VP.DesignPatterns.Command;
+﻿namespace VP.DesignPatterns.Command;
 
 
 /// <summary>
@@ -39,7 +32,6 @@ public class Invoker
         {
             ICommand lastExecutedCommand = _executedCommands.Pop();
             lastExecutedCommand.Undo();
-
         }
         else
         {

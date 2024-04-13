@@ -4,7 +4,6 @@ public class SportsCarDecorator : CarDecorator
 {
     public SportsCarDecorator(ICar decoratedCar) : base(decoratedCar)
     {
-
     }
 
     public override void Assemble()

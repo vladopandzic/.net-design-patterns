@@ -1,4 +1,5 @@
 ﻿namespace VP.DesignPatterns.Observer.Example1;
+
 public class PoliceRadar : ISpeedMonitor
 {
     readonly int _speedLimit;

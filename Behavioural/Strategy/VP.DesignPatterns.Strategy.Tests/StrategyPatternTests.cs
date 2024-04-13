@@ -1,4 +1,5 @@
 ﻿namespace VP.DesignPatterns.Strategy.Tests;
+
 public class StrategyPatternTests
 {
     [Test]
@@ -58,5 +59,4 @@ public class StrategyPatternTests
         // Assert
         Assert.That(actualOutput2, Is.EqualTo(expectedOutput2));
     }
-
 }

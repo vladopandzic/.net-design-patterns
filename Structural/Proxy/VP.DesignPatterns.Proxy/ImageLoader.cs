@@ -1,4 +1,5 @@
 ﻿namespace VP.DesignPatterns.Proxy;
+
 public class ImageLoader : IImageLoader
 {
     public void LoadImage(string imageName)

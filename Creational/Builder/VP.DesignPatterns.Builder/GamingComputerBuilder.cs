@@ -1,5 +1,6 @@
 ﻿namespace VP.DesignPatterns.Builder;
 // Concrete builder class
+
 public class GamingComputerBuilder : IComputerBuilder
 {
     private Computer computer;

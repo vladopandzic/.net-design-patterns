@@ -6,7 +6,6 @@ namespace VP.DesignPatterns.Observer.Tests.Example1;
 
 public class ObserverStructuralTests
 {
-
     [Test]
     public void Car_Has_List_Of_ISpeedMonitor_Observers()
     {
@@ -58,7 +57,7 @@ public class ObserverStructuralTests
         car.Attach(observer);
 
         // Act
-        car.Speed = 70; 
+        car.Speed = 70;
 
         // Assert
         observer.Received().Update(70);
@@ -69,12 +68,7 @@ public class ObserverStructuralTests
     {
         // Arrange
         var car = new Car();
-        var observers = new List<ISpeedMonitor>
-            {
-                Substitute.For<ISpeedMonitor>(),
-                Substitute.For<ISpeedMonitor>(),
-                Substitute.For<ISpeedMonitor>()
-            };
+        var observers = new List<ISpeedMonitor> { Substitute.For<ISpeedMonitor>(), Substitute.For<ISpeedMonitor>(), Substitute.For<ISpeedMonitor>() };
 
         foreach (var observer in observers)
         {
@@ -87,7 +81,7 @@ public class ObserverStructuralTests
         // Assert
         foreach (var observer in observers)
         {
-            observer.Received().Update(70); 
+            observer.Received().Update(70);
         }
     }
 
@@ -101,7 +95,7 @@ public class ObserverStructuralTests
 
         // Act
         car.Detach(observer);
-        car.Speed = 70; 
+        car.Speed = 70;
 
         // Assert
         observer.DidNotReceive().Update(Arg.Any<int>());
@@ -128,5 +122,4 @@ public class ObserverStructuralTests
         var speedMonitorsField = car.GetType().GetField("_speedMonitors", BindingFlags.NonPublic | BindingFlags.Instance);
         return (List<ISpeedMonitor>)speedMonitorsField!.GetValue(car)!;
     }
-
 }

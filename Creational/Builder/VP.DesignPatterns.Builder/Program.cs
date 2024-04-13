@@ -22,6 +22,5 @@ internal class Program
         computer.Display();
 
         computer2.Display();
-
     }
 }

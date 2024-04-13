@@ -14,5 +14,4 @@ public interface ICommand
     /// Undo operation. Oposite of <see cref="Execute"/>.
     /// </summary>
     void Undo();
-
 }

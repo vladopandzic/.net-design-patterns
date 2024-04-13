@@ -30,7 +30,5 @@ internal class Program
         canBus.TransmitData("Airbag deployed");
 
         Console.ReadKey();
-
-
     }
 }

@@ -1,4 +1,5 @@
 ﻿namespace VP.DesignPatterns.Builder.Tests;
+
 public class BuilderPatternTests
 {
     [Test]

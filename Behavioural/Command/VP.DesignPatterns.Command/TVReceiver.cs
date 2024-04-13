@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 namespace VP.DesignPatterns.Command;
 
 /// <summary>
-/// Actual class that does some work. Each command will usually have <see cref="ICommand.Execute"/> method that will call one of this method.
-/// or methods from other receivers.
+/// Actual class that does some work. Each command will usually have <see cref="ICommand.Execute"/> method that will
+/// call one of this method. or methods from other receivers.
 /// </summary>
 public class TVReceiver
 {

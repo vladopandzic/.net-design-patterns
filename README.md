@@ -1,6 +1,6 @@
 # C# Design Patterns Repository
 
-Welcome to the C# Design Patterns Repository! This repository contains examples of various design patterns implemented in C#. Design patterns are reusable solutions to common problems encountered in software design and are categorized into three groups: Creational, Structural, and Behavioral.
+This repository contains examples of various design patterns implemented in C#. Design patterns are reusable solutions to common problems encountered in software design and are categorized into three groups: Creational, Structural, and Behavioral.
 
 Below, you'll find examples of each design pattern along with a brief explanation of its purpose:
 
@@ -38,4 +38,11 @@ Below, you'll find examples of each design pattern along with a brief explanatio
 |--------------------|---------------------------------------------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|
 | Abstract Factory   | [Explanation](Creational/AbstractMethodFactory/VP.DesignPatterns.AbstractMethodFactory/UML/AbstractMethodFactory.md) | Provide an interface for creating families of related or dependent objects without specifying their concrete classes. | [Example Code](Creational/AbstractMethodFactory/VP.DesignPatterns.AbstractMethodFactory) |
 | Builder            | [Explanation](Creational/Builder/VP.DesignPatterns.Builder/UML/Builder.md)                   | Separate the construction of a complex object from its representation so that the same construction process can create different representations. | [Example Code](Creational/Builder/VP.DesignPatterns.Builder)    |
-| Factory Method     | [Explanation](Creational/FactoryMethod/VP.DesignPatterns.FactoryMethod/UML/FactoryMethod.md) | Define an interface for creating an object, but let subclasses alter the type of objects that will be created. | [Example
+| Factory Method     | [Explanation](Creational/FactoryMethod/VP.DesignPatterns.FactoryMethod/UML/FactoryMethod.md) | Define an interface for creating an object, but let subclasses alter the type of objects that will be created. | [Example Code](Creational/FactoryMethod/VP.DesignPatterns.FactoryMethod) |
+| Prototype          | [Explanation](Creational/Prototype/VP.DesignPatterns.Prototype/UML/Prototype.md)             | Specify the kinds of objects to create using a prototypical instance, and create new objects by copying this prototype. | [Example Code](Creational/Prototype/VP.DesignPatterns.Prototype) |
+| Singleton          | [Explanation](Creational/Singleton/VP.DesignPatterns.Singleton/UML/Singleton.md)             | Ensure a class has only one instance and provide a global point of access to it. | [Example Code](Creational/Singleton/VP.DesignPatterns.Singleton) |
+
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).

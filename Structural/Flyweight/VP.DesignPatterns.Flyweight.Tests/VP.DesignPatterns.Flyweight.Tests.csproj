@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Structural\Flyweight\VP.DesignPatterns.Flyweight\VP.DesignPatterns.Flyweight.csproj" />
+    <ProjectReference Include="..\VP.DesignPatterns.Flyweight\VP.DesignPatterns.Flyweight.csproj" />
   </ItemGroup>
 
 </Project>

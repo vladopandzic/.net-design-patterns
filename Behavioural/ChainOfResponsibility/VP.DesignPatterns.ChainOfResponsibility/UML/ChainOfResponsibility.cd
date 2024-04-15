@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="VP.DesignPatterns.ChainOfResponsibility.EngineAssemblyZone">
+    <Position X="4.75" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>EngineAssemblyZone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VP.DesignPatterns.ChainOfResponsibility.ChassisAssemblyZone">
+    <Position X="7" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>ChassisAssemblyZone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VP.DesignPatterns.ChainOfResponsibility.InteriorAssemblyZone">
+    <Position X="9.25" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>InteriorAssemblyZone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VP.DesignPatterns.ChainOfResponsibility.AssemblyZone">
+    <Position X="7" Y="1" Width="1.5" />
+    <AssociationLine Name="_nextZone" Type="VP.DesignPatterns.ChainOfResponsibility.AssemblyZone" ManuallyRouted="true">
+      <Path>
+        <Point X="7.529" Y="1" />
+        <Point X="7.529" Y="0.375" />
+        <Point X="7.982" Y="0.375" />
+        <Point X="7.982" Y="1" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAEAAAAAA=</HashCode>
+      <FileName>AssemblyZone.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_nextZone" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

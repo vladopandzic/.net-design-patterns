@@ -119,9 +119,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VP.DesignPatterns.Prototype
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChainOfResponsibility", "ChainOfResponsibility", "{9DFAEE16-77C0-4730-A7D0-F6567F22F868}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VP.DesignPatterns.ChainOfResponsibility", "Behavioural\ChainOfResponsibility\VP.DesignPatterns.ChainOfResponsibility\VP.DesignPatterns.ChainOfResponsibility.csproj", "{5BDA097E-919C-4F90-85C7-BE8F5F0825F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VP.DesignPatterns.ChainOfResponsibility", "Behavioural\ChainOfResponsibility\VP.DesignPatterns.ChainOfResponsibility\VP.DesignPatterns.ChainOfResponsibility.csproj", "{5BDA097E-919C-4F90-85C7-BE8F5F0825F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VP.DesignPatterns.ChainOfResponsibility.Tests", "Behavioural\ChainOfResponsibility\VP.DesignPatterns.ChainOfResponsibility.Tests\VP.DesignPatterns.ChainOfResponsibility.Tests.csproj", "{C006FDB0-4AC1-4353-A8CD-B828A1FEB3E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VP.DesignPatterns.ChainOfResponsibility.Tests", "Behavioural\ChainOfResponsibility\VP.DesignPatterns.ChainOfResponsibility.Tests\VP.DesignPatterns.ChainOfResponsibility.Tests.csproj", "{C006FDB0-4AC1-4353-A8CD-B828A1FEB3E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Memento", "Memento", "{7039DEC8-4AB4-46CE-B94D-7FBFB38A51D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VP.DesignPatterns.Memento", "Behavioural\Memento\VP.DesignPatterns.Memento\VP.DesignPatterns.Memento.csproj", "{00397A8F-A141-41A1-BD6E-9275D71D3D92}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VP.DesignPatterns.Memento.Tests", "Behavioural\Memento\VP.DesignPatterns.Memento.Tests\VP.DesignPatterns.Memento.Tests.csproj", "{7C586097-8AFA-421E-9637-48374CE002A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Iterator", "Iterator", "{2E63F338-C4B9-4C64-B762-0FC6B8054EF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VP.DesignPatterns.Iterator", "Behavioural\Iterator\VP.DesignPatterns.Iterator\VP.DesignPatterns.Iterator.csproj", "{227F4F6F-18E6-42A0-8BE3-11D88D24B78D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -281,6 +291,18 @@ Global
 		{C006FDB0-4AC1-4353-A8CD-B828A1FEB3E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C006FDB0-4AC1-4353-A8CD-B828A1FEB3E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C006FDB0-4AC1-4353-A8CD-B828A1FEB3E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00397A8F-A141-41A1-BD6E-9275D71D3D92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00397A8F-A141-41A1-BD6E-9275D71D3D92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00397A8F-A141-41A1-BD6E-9275D71D3D92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00397A8F-A141-41A1-BD6E-9275D71D3D92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C586097-8AFA-421E-9637-48374CE002A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C586097-8AFA-421E-9637-48374CE002A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C586097-8AFA-421E-9637-48374CE002A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C586097-8AFA-421E-9637-48374CE002A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{227F4F6F-18E6-42A0-8BE3-11D88D24B78D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{227F4F6F-18E6-42A0-8BE3-11D88D24B78D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{227F4F6F-18E6-42A0-8BE3-11D88D24B78D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{227F4F6F-18E6-42A0-8BE3-11D88D24B78D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -343,6 +365,11 @@ Global
 		{9DFAEE16-77C0-4730-A7D0-F6567F22F868} = {71A9D2A4-A904-42CA-AE54-CA7D84B09A12}
 		{5BDA097E-919C-4F90-85C7-BE8F5F0825F3} = {9DFAEE16-77C0-4730-A7D0-F6567F22F868}
 		{C006FDB0-4AC1-4353-A8CD-B828A1FEB3E7} = {9DFAEE16-77C0-4730-A7D0-F6567F22F868}
+		{7039DEC8-4AB4-46CE-B94D-7FBFB38A51D5} = {71A9D2A4-A904-42CA-AE54-CA7D84B09A12}
+		{00397A8F-A141-41A1-BD6E-9275D71D3D92} = {7039DEC8-4AB4-46CE-B94D-7FBFB38A51D5}
+		{7C586097-8AFA-421E-9637-48374CE002A6} = {7039DEC8-4AB4-46CE-B94D-7FBFB38A51D5}
+		{2E63F338-C4B9-4C64-B762-0FC6B8054EF4} = {71A9D2A4-A904-42CA-AE54-CA7D84B09A12}
+		{227F4F6F-18E6-42A0-8BE3-11D88D24B78D} = {2E63F338-C4B9-4C64-B762-0FC6B8054EF4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5B0BC7A7-78DD-4BF2-B743-8DB141B34619}
